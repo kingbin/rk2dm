@@ -1,10 +1,10 @@
 GIT
-  remote: git://github.com/coop/run_keeper.git
-  revision: 8f815cd05a5c7cd18a5330bbfd5d15c7f809b213
+  remote: git://github.com/kingbin/runkeeper.git
+  revision: fd46951a3c1cde4bdf95d16480971f3328bd5404
   branch: master
   specs:
-    run_keeper (0.0.5)
-      oauth2 (~> 0.5.0)
+    runkeeper (0.0.3)
+      httparty
 
 GEM
   remote: http://rubygems.org/
@@ -13,9 +13,13 @@ GEM
     diff-lcs (1.1.3)
     faraday (0.8.4)
       multipart-post (~> 1.1)
+    httparty (0.10.0)
+      multi_json (~> 1.0)
+      multi_xml
     launchy (2.1.2)
       addressable (~> 2.3)
     multi_json (1.5.0)
+    multi_xml (0.5.2)
     multipart-post (1.1.5)
     oauth2 (0.5.2)
       faraday (~> 0.7)
@@ -42,5 +46,5 @@ DEPENDENCIES
   oauth2 (>= 0.5.2)
   rack
   rspec
-  run_keeper!
+  runkeeper!
   simplecov
