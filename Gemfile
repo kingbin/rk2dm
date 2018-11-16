@@ -4,7 +4,8 @@ source "http://rubygems.org"
 gem "oauth2", ">=0.5.2"
 gem "launchy"
 gem "rack"
-gem "runkeeper", :git=>"git://github.com/kingbin/runkeeper.git", :branch => "master"
+#gem "runkeeper", :git=>"git://github.com/kingbin/runkeeper.git", :branch => "master"
+gem "runkeeper"
 #gem "activesupport", "~> 3.2.11"
 
 # Add dependencies to develop your gem here.
